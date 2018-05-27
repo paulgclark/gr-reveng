@@ -1,0 +1,66 @@
+/opt/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/paul/code/gr-reveng
+-- The CXX compiler identification is GNU 5.4.0
+-- The C compiler identification is GNU 5.4.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- PyBOMBS installed GNU Radio. Setting CMAKE_INSTALL_PREFIX to /home/paul/sdr3
+CMake Deprecation Warning at CMakeLists.txt:55 (cmake_policy):
+  The OLD behavior for policy CMP0026 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'cppunit'
+--   Found cppunit, version 1.13.2
+-- Found CPPUNIT: /usr/lib/x86_64-linux-gnu/libcppunit.so;dl  
+-- Found Doxygen: /usr/bin/doxygen (found version "1.8.11") found components:  doxygen missing components:  dot
+Checking for GNU Radio Module: RUNTIME
+-- Checking for module 'gnuradio-runtime'
+--   Found gnuradio-runtime, version 3.7.12.0
+ * INCLUDES=/home/paul/sdr3/include
+ * LIBS=/home/paul/sdr3/lib/libgnuradio-runtime.so;/home/paul/sdr3/lib/libgnuradio-pmt.so;/usr/lib/liblog4cpp.so
+-- Found GNURADIO_RUNTIME: /home/paul/sdr3/lib/libgnuradio-runtime.so;/home/paul/sdr3/lib/libgnuradio-pmt.so;/usr/lib/liblog4cpp.so  
+GNURADIO_RUNTIME_FOUND = TRUE
+-- Found Git: /usr/bin/git  
+-- Using install prefix: /home/paul/sdr3
+-- Building for version: v1.0-compat-xxx-xunknown / 1.0.0git
+-- 
+-- Checking for module SWIG
+-- Found SWIG version 2.0.12.
+-- Found SWIG: /usr/bin/swig2.0  
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython2.7.so (found suitable version "2.7.12", minimum required is "2") 
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of unsigned int
+-- Check size of unsigned int - done
+-- Performing Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/paul/code/gr-reveng/cmake-build-debug

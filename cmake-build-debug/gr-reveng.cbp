@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gr-reveng"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\sdr3\;CMake Files\..\..\sdr3\lib\;CMake Files\..\..\sdr3\lib\cmake\;CMake Files\..\..\sdr3\lib\cmake\gnuradio\;CMake Files\include\;CMake Files\include\reveng\;CMake Files\lib\;CMake Files\swig\;CMake Files\docs\;CMake Files\docs\doxygen\;CMake Files\python\;CMake Files\grc\;CMake Files\apps\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-reveng">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/lib/test-reveng" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 test-reveng"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test-reveng/fast">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/lib/test-reveng" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 test-reveng/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gnuradio-reveng">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/lib/libgnuradio-reveng-1.0.0git.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 gnuradio-reveng"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gnuradio-reveng/fast">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/lib/libgnuradio-reveng-1.0.0git.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 gnuradio-reveng/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_reveng_swig_doc_tag">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig_doc_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _reveng_swig_doc_tag"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_reveng_swig_doc_tag/fast">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig_doc_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _reveng_swig_doc_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_reveng_swig_swig_tag">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig_swig_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _reveng_swig_swig_tag"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_reveng_swig_swig_tag/fast">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig_swig_tag" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _reveng_swig_swig_tag/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reveng_swig_swig_2d0df">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig_swig_2d0df" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 reveng_swig_swig_2d0df"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reveng_swig_swig_2d0df/fast">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig_swig_2d0df" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 reveng_swig_swig_2d0df/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_reveng_swig">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _reveng_swig"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="_reveng_swig/fast">
+				<Option output="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/paul/code/gr-reveng/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/lib"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/include"/>
+					<Add directory="/home/paul/sdr3/include"/>
+					<Add directory="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+					<Add directory="/home/paul/code/gr-reveng/swig"/>
+					<Add directory="/home/paul/sdr3/include/gnuradio/swig"/>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 _reveng_swig/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reveng_swig_swig_doc">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 reveng_swig_swig_doc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_swig_8c1f8">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/swig"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 pygen_swig_8c1f8"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/swig/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_python_2edb7">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/python"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 pygen_python_2edb7"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/python/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pygen_apps_9a6dd">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/apps"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 pygen_apps_9a6dd"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doxygen_target">
+				<Option working_dir="/home/paul/code/gr-reveng/cmake-build-debug/docs/doxygen"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 doxygen_target"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/paul/code/gr-reveng/cmake-build-debug/docs/doxygen/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig_doc_tag.cpp">
+			<Option target="_reveng_swig_doc_tag"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/_reveng_swig_swig_tag.cpp">
+			<Option target="_reveng_swig_swig_tag"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig.py">
+			<Option target="_reveng_swig"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig.py.rule">
+			<Option target="_reveng_swig"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig.tag.rule">
+			<Option target="reveng_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swigPYTHON_wrap.cxx">
+			<Option target="_reveng_swig"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swigPYTHON_wrap.cxx.rule">
+			<Option target="_reveng_swig"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig_swig_2d0df.cpp">
+			<Option target="reveng_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake-build-debug/swig/reveng_swig_swig_2d0df.cpp.rule">
+			<Option target="reveng_swig_swig_2d0df"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/lib/correlate_access_code_bb_ts_fl_impl.cc">
+			<Option target="gnuradio-reveng"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/lib/correlate_access_code_bb_ts_fl_impl.h">
+			<Option target="gnuradio-reveng"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/lib/qa_reveng.cc">
+			<Option target="test-reveng"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/lib/qa_reveng.h">
+			<Option target="test-reveng"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/lib/test_reveng.cc">
+			<Option target="test-reveng"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/FindCppUnit.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPlatform.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrMiscUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrTest.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrSwig.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrMiscUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrMiscUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/UseSWIG.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrTest.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/GrPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/cmake/Modules/CMakeParseArgumentsCopy.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/../../sdr3/lib/cmake/gnuradio/GnuradioConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\sdr3\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/../../sdr3/lib/cmake/gnuradio/GnuradioConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\sdr3\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/../../sdr3/lib/cmake/gnuradio/GrVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\sdr3\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/../../sdr3/lib/cmake/gnuradio/FindGit.cmake">
+			<Option virtualFolder="CMake Files\..\..\sdr3\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/../../sdr3/lib/cmake/gnuradio/FindSWIG.cmake">
+			<Option virtualFolder="CMake Files\..\..\sdr3\lib\cmake\gnuradio\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/include/reveng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\reveng\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/swig/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\swig\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/docs/doxygen/Doxyfile.swig_doc.in">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/docs/doxygen/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/docs/doxygen/Doxyfile.in">
+			<Option virtualFolder="CMake Files\docs\doxygen\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\python\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/grc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\grc\"/>
+		</Unit>
+		<Unit filename="/home/paul/code/gr-reveng/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
