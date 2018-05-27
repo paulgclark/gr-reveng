@@ -12,10 +12,7 @@ frame is not structured with the header expected by the original block.
 
 
 Installation:
-# make sure you have swig
 sudo apt install swig
-
-# then the usual OOT flow
 mkdir build
 cd build
 cmake ../
