@@ -14,7 +14,7 @@ sudo apt install swig
 # then the usual flow
 mkdir build
 cd build
-cmake ../
+cmake ../ # or if you have a pybombs install: cmake -DCMAKE_INSTALL_PREFIX=<pybombs target> ../
 make
 make install  # may need sudo make install
 make ldconfig # may need sudo ldconfig
