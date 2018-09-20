@@ -17,7 +17,7 @@ cd build
 cmake ../ # or if you have a pybombs install: cmake -DCMAKE_INSTALL_PREFIX=<pybombs target> ../
 make
 make install  # may need sudo make install
-make ldconfig # may need sudo ldconfig
+ldconfig      # may need sudo ldconfig
 ```
 
 The new block will be at the bottom of the block list under:
