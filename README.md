@@ -12,6 +12,7 @@ This is simply a derivative of the Correlate Access Code - Tag Stream block. Whi
 sudo apt install swig
 
 # then the usual flow
+cd gr-reveng
 mkdir build
 cd build
 cmake ../ # or if you have a pybombs install: cmake -DCMAKE_INSTALL_PREFIX=<pybombs target> ../
