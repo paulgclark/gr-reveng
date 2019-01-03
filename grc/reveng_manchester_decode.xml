@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<block>
+  <name>Manchester Decode PDU</name>
+  <key>reveng_manchester_decode</key>
+  <category>Reverse Engineering</category>
+  <import>import reveng</import>
+  <make>reveng.manchester_decode($invert)</make>
+
+  <param>
+    <name>Manchester Format</name>
+    <key>invert</key>
+    <value>False</value>
+    <type>enum</type>
+    <option>
+	    <name>Non-Inverted</name>
+	    <key>False</key>
+    </option>
+    <option>
+	    <name>Inverted</name>
+	    <key>True</key>
+    </option>
+
+  </param>
+
+  <sink>
+    <name>in</name>
+    <type>message</type>
+  </sink>
+
+  <source>
+    <name>out</name>
+    <type>message</type>
+  </source>
+</block>
