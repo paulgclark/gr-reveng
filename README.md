@@ -1,5 +1,5 @@
 # Overview
-This code provides a Reverse Engineering module to gnuradio. It currently consists of two blocks.
+This code provides a Reverse Engineering module to gnuradio. It currently consists of three blocks.
 
 
 ## Correlate Access Code - Tag Stream - Fixed Length
