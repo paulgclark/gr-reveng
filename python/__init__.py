@@ -32,4 +32,5 @@ except ImportError:
 
 # import any pure python here
 from manchester_decode import manchester_decode
+from pwm_decode import pwm_decode
 #

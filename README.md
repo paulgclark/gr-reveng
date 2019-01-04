@@ -9,7 +9,13 @@ This is simply a derivative of the Correlate Access Code - Tag Stream block. Whi
 ## Manchester Decode
 This block operates on input PDUs containing Manchester-encoded bits (unsigned char values equal only to 0 or 1). It outputs a Manchester-decoded PDU. There is only one property, which allows you to select whether the block decodes per standard (IEEE 802.3) Manchester or inverted Manchester. The standard encoding maps a one to a rising edge (01) and a zero to a falling edge (10).
 
-This block assumes you have assembled your encoded data with the proper alignment (such as using a "Correlate Access Code - Tag Stream" block followed by "Repack Bits" and "Tagged Stream to PDU").
+This block assumes you have assembled your encoded data with the proper alignment (such as using a "Correlate Access Code - Tag Stream" block followed by "Repack Bits" and "Tagged Stream to PDU"). It also assumes that you have a waveform sampled at the symbol rate of your encoded signal. Finally, the block assumes that the resulting payload contains an integer number of bytes. You can adjust Packet Length property of the "Correlate Access Code - Tagged Stream" block to ensure that the decoded payload has a length evenly divisible by 8.
+
+
+## PWM Decode
+This block operates on input PDUs containing PWM-encoded bits (unsigned char values equal only to 0 or 1). It outputs a PWM-decoded PDU. There are two properties, one of which defines the PWM sequence for a one bit, and the second which defines the zero bit. Both of these sequences are defined with Python tuples.  For example, a 33% duty cycle starting with zero would be expressed as (0, 0, 1).
+
+This block assumes you have assembled your encoded data with the proper alignment (such as using a "Correlate Access Code - Tag Stream" block followed by "Repack Bits" and "Tagged Stream to PDU"). It also assumes that you have a waveform sampled at the symbol rate of your encoded signal. Finally, the block assumes that the resulting payload contains an integer number of bytes. You can adjust Packet Length property of the "Correlate Access Code - Tagged Stream" block to ensure that the decoded payload has a length evenly divisible by 8.
 
 
 # Installation:

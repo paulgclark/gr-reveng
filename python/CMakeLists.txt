@@ -32,7 +32,9 @@ endif()
 GR_PYTHON_INSTALL(
     FILES
     __init__.py
-    manchester_decode.py DESTINATION ${GR_PYTHON_DIR}/reveng
+    bit_utilities.py
+    manchester_decode.py
+    pwm_decode.py DESTINATION ${GR_PYTHON_DIR}/reveng
 )
 
 ########################################################################
@@ -44,3 +46,4 @@ set(GR_TEST_TARGET_DEPS gnuradio-reveng)
 set(GR_TEST_PYTHON_DIRS ${CMAKE_BINARY_DIR}/swig)
 GR_ADD_TEST(qa_correlate_access_code_bb_ts_fl ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_correlate_access_code_bb_ts_fl.py)
 GR_ADD_TEST(qa_manchester_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_manchester_decode.py)
+GR_ADD_TEST(qa_pwm_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_pwm_decode.py)

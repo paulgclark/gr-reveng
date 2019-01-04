@@ -20,5 +20,6 @@
 
 install(FILES
     reveng_correlate_access_code_bb_ts_fl.xml
-    reveng_manchester_decode.xml DESTINATION share/gnuradio/grc/blocks
+    reveng_manchester_decode.xml
+    reveng_pwm_decode.xml DESTINATION share/gnuradio/grc/blocks
 )
