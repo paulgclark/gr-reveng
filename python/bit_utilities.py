@@ -36,7 +36,7 @@ def int_to_padded_bits(int_val, num_bits):
     # make sure the input value is an int
     val = int(int_val)
     if val.bit_length() > num_bits:
-        print "WARNING: decToBits() passed too few bits ({}) to render integer: {}".format(num_bits, val),
+        print("WARNING: decToBits() passed too few bits ({}) to render integer: {}".format(num_bits, val))
         return [0]
     # build minimum bit count equivalent
     bits = [int(digit) for digit in bin(val)[2:]]
@@ -91,10 +91,10 @@ def bits_to_int(bit_list, invert = False, reverse = False):
 # converts list of input bits to a list of bytes
 def bit_list_to_byte_list(bits):
     if len(bits) % 8 != 0:
-        print "WARNING: incomplete byte detected in input to bit_list_to_byte_list"
-        print "         len = " + str(len(bits))
+        print("WARNING: incomplete byte detected in input to bit_list_to_byte_list")
+        print("         len = " + str(len(bits)))
     byte_list = []
-    for i in xrange(0, len(bits), 8):
+    for i in range(0, len(bits), 8):
         bits_in_byte = bits[i:i+8]
         byte = bits_to_int(bits_in_byte)
         byte_list.append(byte)

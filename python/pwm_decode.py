@@ -23,8 +23,7 @@ import pmt
 import array
 import numpy
 from gnuradio import gr
-import bit_utilities as bu
-
+from . import bit_utilities as bu
 
 # converts a manchester encoded bit list to a decoded bit list
 def pwm_bit_decoder(encoded_bits, zero_seq, one_seq):
@@ -51,8 +50,8 @@ def pwm_bit_decoder(encoded_bits, zero_seq, one_seq):
                 i += olen
 
         if not decode_success:
-            print "ERROR: Invalid PWM sequence"
-            print "       The next payload is invalid"
+            print("ERROR: Invalid PWM sequence")
+            print("       The next payload is invalid")
             break
 
     return decoded_bits
@@ -101,7 +100,7 @@ class pwm_decode(gr.basic_block):
     def handle_msg(self, msg_pmt):
         msg = pmt.cdr(msg_pmt)
         if not pmt.is_u8vector(msg):
-            print "ERROR: Invalid data type: Expected u8vector."
+            print("ERROR: Invalid data type: Expected u8vector.")
             return
 
         encoded_data = list(pmt.u8vector_elements(msg))

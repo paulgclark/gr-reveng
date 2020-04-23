@@ -23,7 +23,7 @@ import pmt
 import array
 import numpy
 from gnuradio import gr
-import bit_utilities as bu
+from . import bit_utilities as bu
 
 
 # converts a manchester encoded bit list to a decoded bit list
@@ -34,8 +34,8 @@ def manch_bit_decoder(encoded_bits, invert):
     while i < len(encoded_bits):
         # check that encoding is intact; paired bits cannot be the same
         if encoded_bits[i] == encoded_bits[i-1]:
-            print "Manchester decode fail: fallen out of sync"
-            print "                        next payload is invalid"
+            print("Manchester decode fail: fallen out of sync")
+            print("                        next payload is invalid")
             return (decoded_bits)
 
         # now just take the second bit of the pair (assuming IEEE 802.3)
@@ -84,7 +84,7 @@ class manchester_decode(gr.basic_block):
     def handle_msg(self, msg_pmt):
         msg = pmt.cdr(msg_pmt)
         if not pmt.is_u8vector(msg):
-            print "ERROR: Invalid data type: Expected u8vector."
+            print("ERROR: Invalid data type: Expected u8vector.")
             return
 
         encoded_data = list(pmt.u8vector_elements(msg))

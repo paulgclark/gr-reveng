@@ -23,9 +23,6 @@
 ########################################################################
 include(GrPlatform) #define LIB_SUFFIX
 
-include_directories(${Boost_INCLUDE_DIR})
-link_directories(${Boost_LIBRARY_DIRS})
-
 list(APPEND reveng_sources
     correlate_access_code_bb_ts_fl_impl.cc
 )
@@ -37,7 +34,12 @@ if(NOT reveng_sources)
 endif(NOT reveng_sources)
 
 add_library(gnuradio-reveng SHARED ${reveng_sources})
-target_link_libraries(gnuradio-reveng ${Boost_LIBRARIES} ${GNURADIO_ALL_LIBRARIES})
+target_link_libraries(gnuradio-reveng gnuradio::gnuradio-runtime)
+target_include_directories(gnuradio-reveng
+	PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>
+	PUBLIC $<INSTALL_INTERFACE:include>
+  )
+
 set_target_properties(gnuradio-reveng PROPERTIES DEFINE_SYMBOL "gnuradio_reveng_EXPORTS")
 
 if(APPLE)
@@ -50,35 +52,33 @@ endif(APPLE)
 # Install built library files
 ########################################################################
 include(GrMiscUtils)
-GR_LIBRARY_FOO(gnuradio-reveng RUNTIME_COMPONENT "reveng_runtime" DEVEL_COMPONENT "reveng_devel")
+GR_LIBRARY_FOO(gnuradio-reveng)
+
+########################################################################
+# Print summary 
+########################################################################
+message(STATUS "Using install prefix: ${CMAKE_INSTALL_PREFIX}")
+message(STATUS "Building for version: ${VERSION} / ${LIBVER}")
 
 ########################################################################
 # Build and register unit test
 ########################################################################
 include(GrTest)
 
-include_directories(${CPPUNIT_INCLUDE_DIRS})
+# If your unit tests require special include paths, add them here
+#include_directories()
 
 list(APPEND test_reveng_sources
-    ${CMAKE_CURRENT_SOURCE_DIR}/test_reveng.cc
-    ${CMAKE_CURRENT_SOURCE_DIR}/qa_reveng.cc
 )
 
-add_executable(test-reveng ${test_reveng_sources})
+if(NOT test_reveng_sources)
+    MESSAGE(STATUS "No C++ unit tests... skipping")
+    return()
+endif(NOT test_reveng_sources)
 
-target_link_libraries(
-  test-reveng
-  ${GNURADIO_RUNTIME_LIBRARIES}
-  ${Boost_LIBRARIES}
-  ${CPPUNIT_LIBRARIES}
-  gnuradio-reveng
-)
-
-GR_ADD_TEST(test_reveng test-reveng)
-
-########################################################################
-# Print summary
-########################################################################
-message(STATUS "Using install prefix: ${CMAKE_INSTALL_PREFIX}")
-message(STATUS "Building for version: ${VERSION} / ${LIBVER}")
+foreach(qa_file ${test_reveng_sources})
+    GR_ADD_CPP_TEST("reveng_${qa_file}"
+        ${CMAKE_CURRENT_SOURCE_DIR}/${qa_file}
+    )
+endforeach(qa_file)
 

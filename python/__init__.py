@@ -22,15 +22,16 @@
 This is the GNU Radio REVENG module. Place your Python package
 description here (python/__init__.py).
 '''
+from __future__ import unicode_literals
 
 # import swig generated symbols into the reveng namespace
 try:
 	# this might fail if the module is python-only
-	from reveng_swig import *
+	from .reveng_swig import *
 except ImportError:
 	pass
 
 # import any pure python here
-from manchester_decode import manchester_decode
-from pwm_decode import pwm_decode
+from .manchester_decode import manchester_decode
+from .pwm_decode import pwm_decode
 #
