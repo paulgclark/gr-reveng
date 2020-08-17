@@ -34,7 +34,8 @@ GR_PYTHON_INSTALL(
     __init__.py
     bit_utilities.py
     manchester_decode.py
-    pwm_decode.py DESTINATION ${GR_PYTHON_DIR}/reveng
+    pwm_decode.py
+    message_print.py DESTINATION ${GR_PYTHON_DIR}/reveng
 )
 
 ########################################################################
@@ -47,3 +48,4 @@ set(GR_TEST_PYTHON_DIRS ${CMAKE_BINARY_DIR}/swig)
 GR_ADD_TEST(qa_correlate_access_code_bb_ts_fl ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_correlate_access_code_bb_ts_fl.py)
 GR_ADD_TEST(qa_manchester_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_manchester_decode.py)
 GR_ADD_TEST(qa_pwm_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_pwm_decode.py)
+GR_ADD_TEST(qa_message_print ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_message_print.py)

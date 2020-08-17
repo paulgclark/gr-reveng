@@ -21,5 +21,6 @@
 install(FILES
     reveng_correlate_access_code_bb_ts_fl.block.yml
     reveng_manchester_decode.block.yml
-    reveng_pwm_decode.block.yml DESTINATION share/gnuradio/grc/blocks
+    reveng_pwm_decode.block.yml
+    reveng_message_print.block.yml DESTINATION share/gnuradio/grc/blocks
 )

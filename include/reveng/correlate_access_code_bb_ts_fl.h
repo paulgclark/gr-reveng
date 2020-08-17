@@ -61,6 +61,7 @@ namespace gr {
        *                    e.g., "010101010111000100"
        * \param threshold maximum number of bits that may be wrong
        * \param tag_name key of the tag inserted into the tag stream
+       * \param len fixed length of payload in bytes
        */
       static sptr make(const std::string &access_code,
 		       int threshold,
