@@ -2,7 +2,7 @@
 
 id: reveng_correlate_access_code_xx_ts_fl
 label: Correlate AC TS - Fixed Len
-category: Reverse Engineering
+category: '[Reverse Engineering]'
 
 parameters:
 -   id: access_code
