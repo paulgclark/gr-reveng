@@ -2,7 +2,7 @@
 
 id: reveng_pwm_decode
 label: PWM Decoder
-category: Reverse Engineering
+category: '[Reverse Engineering]'
 
 parameters:
 -   id: zero_seq
