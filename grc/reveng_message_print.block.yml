@@ -1,7 +1,7 @@
 id: reveng_message_print
 label: Message Print
 flags: [ python ]
-category: Reverse Engineering
+category: '[Reverse Engineering]'
 
 #  Make one 'parameters' list entry for every parameter you want settable from the GUI.
 #     Keys include:
