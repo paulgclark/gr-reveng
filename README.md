@@ -18,6 +18,9 @@ This block operates on input PDUs containing PWM-encoded bits (unsigned char val
 This block assumes you have assembled your encoded data with the proper alignment (such as using a "Correlate Access Code - Tag Stream" block followed by "Repack Bits" and "Tagged Stream to PDU"). It also assumes that you have a waveform sampled at the symbol rate of your encoded signal. Finally, the block assumes that the resulting payload contains an integer number of bytes. You can adjust Packet Length property of the "Correlate Access Code - Tagged Stream" block to ensure that the decoded payload has a length evenly divisible by 8.
 
 
+## Message Print
+This block is an evolution of the Message Debug block. It fixes an instability issue that occurs when you send non-printable ASCII to the "print" input as well as adding a few new options.
+
 # Installation:
 ```
 # make sure you have swig installed
