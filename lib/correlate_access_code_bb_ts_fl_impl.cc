@@ -96,8 +96,11 @@ namespace gr {
         d_access_code = (d_access_code << 1) | (access_code[i] & 1);
       }
 
-      GR_LOG_DEBUG(d_logger, boost::format("Access code: %llx") % d_access_code);
-      GR_LOG_DEBUG(d_logger, boost::format("Mask: %llx") % d_mask);
+      std::ostringstream msg;
+      msg << "Access code: %llx" << d_access_code << " Mask: %llx " << d_mask;
+      GR_LOG_DEBUG(d_debug_logger, msg.str());
+      //GR_LOG_DEBUG(d_logger, boost::format("Access code: %llx") % d_access_code);
+      //GR_LOG_DEBUG(d_logger, boost::format("Mask: %llx") % d_mask);
 
       return true;
     }
