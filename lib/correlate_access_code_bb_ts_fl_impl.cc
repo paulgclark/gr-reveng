@@ -59,7 +59,7 @@ namespace gr {
       set_tag_propagation_policy(TPP_DONT);
 
       if(!set_access_code(access_code)) {
-	GR_LOG_ERROR(d_logger, "access_code is > 64 bits");
+	d_logger->error("access_code is > 64 bits");
 	throw std::out_of_range ("access_code is > 64 bits");
       }
 
@@ -96,8 +96,8 @@ namespace gr {
         d_access_code = (d_access_code << 1) | (access_code[i] & 1);
       }
 
-      GR_LOG_DEBUG(d_logger, boost::format("Access code: %llx") % d_access_code);
-      GR_LOG_DEBUG(d_logger, boost::format("Mask: %llx") % d_mask);
+      d_logger->debug("Access code: {:x}",d_access_code);
+      d_logger->debug("Mask: {:x}",d_mask);
 
       return true;
     }

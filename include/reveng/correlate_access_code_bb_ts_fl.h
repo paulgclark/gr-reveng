@@ -54,7 +54,7 @@ namespace gr {
     {
     public:
       // gr::digital::correlate_access_code_bb_ts_fl::sptr
-      typedef boost::shared_ptr<correlate_access_code_bb_ts_fl> sptr;
+      typedef std::shared_ptr<correlate_access_code_bb_ts_fl> sptr;
 
       /*!
        * \param access_code is represented with 1 byte per bit,

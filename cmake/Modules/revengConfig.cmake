@@ -1,4 +1,6 @@
-INCLUDE(FindPkgConfig)
+if(NOT PKG_CONFIG_FOUND)
+    INCLUDE(FindPkgConfig)
+endif()
 PKG_CHECK_MODULES(PC_REVENG reveng)
 
 FIND_PATH(
@@ -22,11 +24,10 @@ FIND_LIBRARY(
           /usr/local/lib64
           /usr/lib
           /usr/lib64
-)
+          )
 
 include("${CMAKE_CURRENT_LIST_DIR}/revengTarget.cmake")
 
 INCLUDE(FindPackageHandleStandardArgs)
 FIND_PACKAGE_HANDLE_STANDARD_ARGS(REVENG DEFAULT_MSG REVENG_LIBRARIES REVENG_INCLUDE_DIRS)
 MARK_AS_ADVANCED(REVENG_LIBRARIES REVENG_INCLUDE_DIRS)
-
